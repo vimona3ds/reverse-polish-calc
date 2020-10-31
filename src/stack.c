@@ -100,7 +100,7 @@ int *stack_empty(int *stack) {
 /*
  * Frees stack
  *
- * time: O(sz) space: O(-sz) ??
+ * time: O(sz) auxiliary space: O(1)
  */
 void stack_free(int *stack) {
     *stack = 0;
